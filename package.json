@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-ipqualityscore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "IPQualityScore MCP — wraps the IPQualityScore fraud-prevention API",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-ipqualityscore": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ipqualityscore"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-ipqualityscore"
+    "url": "git+https://github.com/pipeworx-io/mcp-ipqualityscore.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ccbdf4f08b8f5547bbbdf3b88b742c333b7b27d3a588894309d472f67608b508",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
