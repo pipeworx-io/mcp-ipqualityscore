@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ipqualityscore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "IPQualityScore MCP — wraps the IPQualityScore fraud-prevention API",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ccbdf4f08b8f5547bbbdf3b88b742c333b7b27d3a588894309d472f67608b508",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-d0bf1aafacda18d462195a92f9c5c12ea9595f65fc0c4bb2451cbd40fe6b34a5",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
