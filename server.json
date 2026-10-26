@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/ipqualityscore",
   "title": "Ipqualityscore",
-  "description": "IPQualityScore MCP — wraps the IPQualityScore fraud-prevention API",
-  "version": "0.1.2",
+  "description": "IPQualityScore MCP — wraps the IPQualityScore fraud-prevention API (ipqualityscore.com).",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/ipqualityscore",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ipqualityscore",
